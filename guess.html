@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Guess The Number (1 - 20)</h1>
+    </header>
+    <main>
+      <section class="section1">
+        <div class="sec1-left">
+          <button class="check">Check</button>
+          <button class="again hidden">again</button>
+          <input type="number" class="guess" min="1" max="100" />
+          <p class="current-attempt">
+            Number of attempts: <span class="attempt">0</span>
+          </p>
+
+          <p class="last hidden">Your last chance</p>
+        </div>
+        <div>
+          <p class="current-score">Score: <span class="score">5</span></p>
+        </div>
+      </section>
+      <div class="tahmin"><p>Tahmine baslayabilirsiniz</p></div>
+      <section class="section2">
+        <img src="../Screenshot 2023-01-14 151350.jpg" alt="" />
+      </section>
+
+      <!-- <section class="section3">
+        <div><h3>Write the number.</h3></div>
+        <div>Number of attemps:3</div>
+      </section> -->
+      <script src="script.js"></script>
+    </main>
+  </body>
+</html>

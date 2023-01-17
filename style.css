@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  font-size: 2rem;
+  text-align: center;
+}
+header {
+  margin: 2rem;
+}
+button {
+  margin: 1rem;
+  padding: 1rem;
+  font-size: large;
+  background-color: aqua;
+}
+
+.guess {
+  text-align: center;
+  font-size: 2rem;
+  width: 10rem;
+  height: 3rem;
+  border: 3px solid red;
+}
